@@ -12,19 +12,23 @@ export default function FinalScreen() {
   const [showOverlay, setShowOverlay] = useState(false)
   const messageRef = useRef(null)
 
-  const proposalMessage = `From the moment you came into my life, everything started to change.  
-You brought colors to my ordinary days, warmth to my silence, and a happiness I didn’t even know I was missing.  
-
-Every sunrise feels brighter because of you.  
-Every dream feels possible because you inspire me.  
-Every challenge feels easier because I imagine you by my side.  
-
-You are not just my friend, you’re the most special part of my life.  
-You make me smile, you make my heart race, and you make me want to be a better version of myself.  
-
-I don’t know what the future holds, but I know one thing for sure.
-I want that future with you.`
-
+  const proposalMessage = `i know you are not excited for your birthday but i am very excited for this day 
+  becoz this day is very close to my heart as it's my Ada birthday❤️🎂 
+  love youuu so much thanku for coming in my life and give soo much love. may god bless you with lot of success and good health 
+  mujhe pta hai ki yeh words kuch bhi nhi apni baat batane ke liye but aap nhi jaante mai apsai kitna
+  pyaar krti hu. i really loveee youuuuu my man❤️ bas aise hi rahiye mere sath hamesha touchwood🧿 
+  agar mujhse koi glti hui ho ya hogi toh aise hi khud sorry bol kr manna lijiyega i feel very 
+  lucky to have you in my life 💕😘🥰 mai apke sath hamesha rahungi and apki hamesha respect karungi 
+  and support bhi pura krungi 
+  HAPPY BIRTHDAY MY DEAR SOULMATE ADA 💞💖 mere pyaare babuuuu mere diamond💎 my cutuuuu my jaaannuuuu
+  mai apko hamesha bohot yaad karti hu but i know yeh duriya jald hi kaam hojayegi.
+  you stole my heart but i'll let you keep it being with is the best feeling ever❤️
+  and this line......
+  "Nazar ko nazar ki nazar na lage,
+  koi accha bhi iss kadar na lage,
+  Tujhe dekha hai iss nazar se,jis
+  Nazar seh tujhe nazar na lage🧿💘💝..."
+  .`
   useEffect(() => {
     if (cardOpen && !typingComplete) {
       let currentIndex = 0
